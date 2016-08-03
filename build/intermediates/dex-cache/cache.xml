@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-18406428dc6b27fbb4f2fe0262b45968f6668f98.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-3043ca129390bd887d14719c58b7adab32b124d7.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-f4b1aba24726a7cb8c5ca56fd6eb5a5105511c2c.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="82054090e487d78e163a988557db62d809fa9b95">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-321edfa2268f11908d3d7a2b9d857e13ba4e5bb8.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-08e79d6eaa745e5adc51395bae19fe731e4a2080.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-e92271a38d13dc1ec14c4cb8c1d99053622f1bd1.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-ad2f7b5e603eacf56366a6cbf169ffafd924b12c.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-4c7b9153c1b9a31bbd6d27ca3efdb668efb07d2a.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-514ca2880f1cbfc4cda0a51bb2ef5c166eb7040a.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="993834cb17d07d51b92db89d2c330243592ebf77">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-1e8a0372db3d626b362ba5bf61166012c110dc6b.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-f8770122d8be8496bf536cb0ae09be8ab0416fbc.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-19832489c89a2a9db5306fa7ba2efaa5caf31b0c.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-a36d8ce00fbf00c4f829121f973ca9d179ba5b44.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-027622f75bb90c6cb3d8038688a38a8292a405ca.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0229294c29349e7464e9ce36bdcc5c50de1584f0.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-ad163203d44b25321710d843d4f983f281f9a095.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-752be454fe72200785393f0b9fbd5b3eb7630c34.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-d3d36831d7e4b01b90e6143cbafc9b9bfffd56a9.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-b479f348855fd598407287b5fe03a8c1ffa9dbd5.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-f77b6e2d318a920dcb186733e1632ce1ae05de79.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-29924ed6aa8c7c0f5f4755b3066efbcb21cb32b8.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-26097dca05b758462a06d5104385fd3ef1a12732.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-e0e7e0c5b80943ffef950237ac1e3e26b9678d83.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-8cdf88b154471b740f832097f1c06a4491c0e197.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-b86c5f6673c14edb1b7d57b8497685e62f1c4420.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-9872929fc0a0906035b28be826dbcfe686bdc6b1.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-4a28087cd312e5f0078504b6e367cdcd7a6f0841.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-321628de9b92249e37b71db0b5254c71bfdfba9e.jar" />
+    </item>
+    <item
+        jar="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/connieli/Google Drive/ANDROID/COOL/augmented-reality-example/app/build/intermediates/pre-dexed/debug/classes-cabdba5f492e28f04c7d77b6a4dcd669c2c90739.jar" />
+    </item>
+
+</items>

@@ -16,6 +16,7 @@ import android.widget.Toast;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * Created by krzysztofjackowski on 24/09/15.
  */
@@ -59,31 +60,57 @@ public class CameraViewActivity extends Activity implements
 		);
 	}
 
-	public double calculateTeoreticalAzimuth() {
-		double dX = mPoi.getPoiLatitude() - mMyLatitude;
+	/**
+	 * http://www.igismap.com/formula-to-find-bearing-or-heading-angle-between-two-points-latitude-longitude/
+	 */
+	private double calculateTheoreticalAzimuthArc() {
+		// azimuth = Math.atan2(dX, dY)
+		// me = point 1, poi = point 2
+		final double poiLat = mPoi.getPoiLatitude();
+		final double poiLong = mPoi.getPoiLongitude();
+
+		double dX = Math.cos(poiLat) * Math.sin(poiLong - mMyLongitude);
+		double dY = Math.cos(mMyLatitude) * Math.sin(poiLat) - Math.sin(mMyLatitude) * Math.cos(poiLat) *
+				Math.cos(poiLong - mMyLongitude);
+
+		return Math.atan2(dX, dY); // returns degree
+	}
+
+	public double calculateTheoreticalAzimuth() {
+		// (diff in longitude) / (diff in latitude)
+		// x = acos( {sin(lat2) - sin(lat1) * cos(d) } / {sin(d)*cos(lat1)} )
 		double dY = mPoi.getPoiLongitude() - mMyLongitude;
+		double dX = mPoi.getPoiLatitude() - mMyLatitude;
 
 		double phiAngle;
 		double tanPhi;
 		double azimuth = 0;
 
-		tanPhi = Math.abs(dY / dX);
+//		tanPhi = Math.abs(dY / dX);
+		tanPhi = Math.abs(dX / dY);
+		// tan => toDegrees
 		phiAngle = Math.atan(tanPhi);
 		phiAngle = Math.toDegrees(phiAngle);
 
-		if (dX > 0 && dY > 0) { // I quater
-			return azimuth = phiAngle;
+		if (dX > 0 && dY > 0) { // I quarter
+			azimuth = phiAngle;
 		} else if (dX < 0 && dY > 0) { // II
-			return azimuth = 180 - phiAngle;
+			azimuth = 180 - phiAngle;
 		} else if (dX < 0 && dY < 0) { // III
-			return azimuth = 180 + phiAngle;
+			azimuth = 180 + phiAngle;
 		} else if (dX > 0 && dY < 0) { // IV
-			return azimuth = 360 - phiAngle;
+			azimuth = 360 - phiAngle;
 		}
 
-		return phiAngle;
+		return azimuth;
 	}
-	
+
+	/**
+	 * Return List {min, max}.
+	 *
+	 * @param azimuth
+	 * @return
+	 */
 	private List<Double> calculateAzimuthAccuracy(double azimuth) {
 		double minAngle = azimuth - AZIMUTH_ACCURACY;
 		double maxAngle = azimuth + AZIMUTH_ACCURACY;
@@ -114,7 +141,7 @@ public class CameraViewActivity extends Activity implements
 	}
 
 	private void updateDescription() {
-		descriptionTextView.setText(mPoi.getPoiName() + " azimuthTeoretical "
+		descriptionTextView.setText(mPoi.getPoiName() + " azimuthTheoretical "
 				+ mAzimuthTeoretical + " azimuthReal " + mAzimuthReal + " latitude "
 				+ mMyLatitude + " longitude " + mMyLongitude);
 	}
@@ -123,7 +150,7 @@ public class CameraViewActivity extends Activity implements
 	public void onLocationChanged(Location location) {
 		mMyLatitude = location.getLatitude();
 		mMyLongitude = location.getLongitude();
-		mAzimuthTeoretical = calculateTeoreticalAzimuth();
+		mAzimuthTeoretical = calculateTheoreticalAzimuth();
 		Toast.makeText(this,"latitude: "+location.getLatitude()+" longitude: "+location.getLongitude(), Toast.LENGTH_SHORT).show();
 		updateDescription();
 	}
@@ -131,7 +158,7 @@ public class CameraViewActivity extends Activity implements
 	@Override
 	public void onAzimuthChanged(float azimuthChangedFrom, float azimuthChangedTo) {
 		mAzimuthReal = azimuthChangedTo;
-		mAzimuthTeoretical = calculateTeoreticalAzimuth();
+		mAzimuthTeoretical = calculateTheoreticalAzimuth();
 
 		pointerIcon = (ImageView) findViewById(R.id.icon);
 
